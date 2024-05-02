@@ -483,10 +483,15 @@
   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1126px) {
   .section2Elements {
     flex-direction: column;
+    
   }
+  
+  .section2Elements a {
+    margin: 0px !important;}
+
   .imageContainer {
     position: relative;
     overflow: hidden;
@@ -498,9 +503,8 @@
   }
   
   .imageContainer h3 {
-    font-size: 30px;
     position: absolute;
-    top: 45%;
+    bottom: 0%;
     width: 100%;
     text-align: center;
     color: #fff;
