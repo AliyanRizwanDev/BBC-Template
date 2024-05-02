@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BBC HomePage</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../images/Icons/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/9dd4dc3dde.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Drawer -->
+    <div class="drawer">
+      <div class="search">
+        <input
+          placeholder="Search news, topics and more"
+          type="text"
+          name=""
+          id=""
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="drawerLinks">
+        <div><a href="">Home</a></div>
+        <div><a href="">News</a></div>
+        <div><a href="">Sports</a></div>
+        <div><a href="">Business</a></div>
+        <div><a href="">Innovation</a></div>
+        <div><a href="">Culture</a></div>
+        <div><a href="">Travel</a></div>
+        <div><a href="">Earth</a></div>
+        <div><a href="">Video</a></div>
+        <div><a href="">Live</a></div>
+        <div><a href="">Audio</a></div>
+        <div><a href="">Weather</a></div>
+      </div>
+    </div>
+    <!-- NAVBAR -->
+    <div>
+      <div class="navBar">
+        <div class="navOpt">
+          <i class="fa-solid fa-bars" id="searchIcon" onclick="drawer()"></i>
+          <i class="fa-solid fa-magnifying-glass" id="magnifyingIcon"></i>
+          <i class="fas fa-times" id="crossIcon" onclick="drawer()"></i>
+        </div>
+        <div class="logoDiv">
+          <img id="logo" src="../images/logo.png" alt="logo" />
+        </div>
+        <div class="navBtn">
+          <button id="register">Register</button>
+          <button id="signIn">Sign In</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categories -->
+
+    <div class="categories">
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Sport</a>
+      <a href="#">Business</a>
+      <a href="#">Innovation</a>
+      <a href="#">Culture</a>
+      <a href="#">Travel</a>
+      <a href="#">Earth</a>
+      <a href="#">Video</a>
+      <a href="#">Live</a>
+    </div>
+
+    <div class="doc">
+      <!-- Section 1 -->
+
+      <div class="section1">
+        <div class="leftSide">
+          <a href="#">
+            <img src="../images/Sec1/2.webp" alt="image2" />
+            <div class="leftsideDetail">
+              <h3>Netanyahu vows to follow through with Rafah attack</h3>
+              <p id="leftsideDetailp">
+                The Israeli prime minister says the invasion will proceed "with
+                or without" a truce with Hamas.
+              </p>
+              <p class="type">15 hrs ago | <span>NEWS</span> Middle East</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <img src="../images/Sec1/3.webp" alt="image3" />
+            <div class="leftsideDetail">
+              <h3 id="top">
+                <div id="blink"></div>
+                <span id="topLive">LIVE</span> Columbia protest escalates with
+                campus building takeover
+              </h3>
+
+              <p id="leftsideDetailp">
+                Dozens of activists at the university in New York have escalated
+                their demonstration by taking over a building.
+              </p>
+              <p class="typelast"><span>NEWS</span></p>
+            </div>
+          </a>
+        </div>
+
+        <div class="MiddleSide">
+          <a href="" id="wholeMidSection">
+            <img src="../images/Sec1/1.webp" alt="" />
+            <h1 id="middletop">
+              <div id="blink2"></div>
+              <span id="topLive">LIVE</span> Trump threatened with jail in gag
+              order ruling
+            </h1>
+            <p id="middlePara">
+              The judge held Trump in contempt of court for violating the gag
+              order meant to stop his attacks on jurors and witnesses.
+            </p>
+            <p class="ListHead">NEWS</p>
+            <ul class="list">
+              <li><a href="#">All you need to know about the trial</a></li>
+              <li>
+                <a href="#"
+                  >After the hunt for impartiality, who are the 12 Trump
+                  jurors?</a
+                >
+              </li>
+              <li><a href="#">How strong is the case against Trump?</a></li>
+            </ul>
+          </a>
+        </div>
+
+        <div class="RightSide">
+          <a href="#" id="RightSideAdjust1">
+            <h3 id="top">
+              <div id="blink"></div>
+              <span id="topLive">LIVE</span> Police say boy, 14, killed in
+              London sword attack
+            </h3>
+
+            <p>
+              A 36-year-old man is in custody after five people were stabbed in
+              Hainault, east London, on Tuesday morning.
+            </p>
+            <p class="type"><span>NEWS</span></p>
+          </a>
+
+          <a href="#" id="RightSideAdjust2">
+            <h3>
+              Secret document says Iran teen molested and killed by security
+              forces
+            </h3>
+            <p>
+              Revolutionary Guards' papers passed to the BBC give chilling
+              details of Nika Shakarami’s last movements.
+            </p>
+            <p class="type">15 hrs ago | <span>NEWS</span> Middle East</p>
+          </a>
+
+          <a href="#" id="RightSideAdjust3">
+            <h3>Eight US officers shot, four killed, in home siege</h3>
+            <p>
+              A suspect is also dead and two women face questions over one
+              biggest of the deadliest attacks on law enforcement for years.
+            </p>
+            <p class="type">15 hrs ago | <span>NEWS</span> US & Canada</p>
+          </a>
+          <a href="#" id="RightSideAdjust4">
+            <h3>Tensions grow as China ramps up mining for green tech</h3>
+            <p>
+              China has taken big stakes in mines across the world extracting
+              minerals vital to the green economy.
+            </p>
+            <p class="leftsidetypelast">15 hrs ago | <span>NEWS</span> World</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="seperater"></div>
+      <!-- section2 -->
+      <div class="section2">
+        <h3 class="section2Head">Great Reads</h3>
+        <div class="section2Elements">
+          <a href="#">
+            <div class="imageContainer">
+              <img src="../images/Sec2/1.webp" alt="image2" />
+              <h3>How the world's oldest travel story inspired my own</h3>
+            </div>
+            <div>
+              <p>
+                Travel writer Laura Coffey sets off on an epic adventure to
+                discover the modern destinations behind The Odyssey, the real
+                places where myths meet geography.
+              </p>
+              <p class="type">15 hrs ago | Travel</p>
+            </div>
+          </a>
+      
+          <a href="#">
+            <div class="imageContainer">
+              <img src="../images/Sec2/2.webp" alt="image3" />
+              <h3 id="top">These tricks make wind farms more bird-friendly</h3>
+            </div>
+            <div>
+              <p>
+                Wind turbines can pose a deadly risk to migrating birds, but
+                there are ways to dramatically reduce crashes.
+              </p>
+              <p class="type">15 hrs ago | Future</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section3">
+      <div class="section3allelements">
+        <div class="seperater2"></div>
+        <h3 class="section3Head">Must Watch</h3>
+
+        <div class="section3Elements">
+          <div class="section3Image">
+            <img src="../images/Sec3/1.webp" alt="sec3image" />
+          </div>
+          <div class="section3Detail">
+            <h1>Why is only 10 percent of the population left-handed?</h1>
+            <p>
+              A new study reveals the role of rare gene variants and randomness
+              in determining left-handedness.
+            </p>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="doc">
+      <!-- Section 4 -->
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">News Video</h3>
+
+        <div class="section4Elements">
+          <a href="#">
+            <h3>
+              <i class="fa-solid fa-play"></i> WATCH Protesters seize Columbia
+              University's Hamilton Hall
+            </h3>
+            <p class="leftsidetypelast">17 hrs ago | <span>NEWS</span> World</p>
+          </a>
+
+          <a href="#">
+            <h3>
+              <i class="fa-solid fa-play"></i> WATCH BBC on board Philippine
+              ship hit by Chinese water cannon
+            </h3>
+            <p class="leftsidetypelast">1 hrs ago | <span>NEWS</span> Aisa</p>
+          </a>
+
+          <a href="#">
+            <h3>
+              <i class="fa-solid fa-play"></i> WATCH Protesters seize Columbia
+              University's Hamilton Hall
+            </h3>
+            <p class="leftsidetypelast">12 hrs ago | <span>NEWS</span> World</p>
+          </a>
+
+          <a href="#">
+            <h3>
+              <i class="fa-solid fa-play"></i> WATCH Ukraine's 'Harry Potter
+              castle' hit in deadly Russian strike
+            </h3>
+            <p class="leftsidetypelast">12 hrs ago | <span>NEWS</span> UK</p>
+          </a>
+
+          <a href="#">
+            <h3>
+              <i class="fa-solid fa-play"></i> WATCH US cancer patient ‘blessed’
+              after $1.3bn lottery win
+            </h3>
+            <p class="leftsidetypelast">
+              12 hrs ago | <span>NEWS</span> Germany
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>
+              <i class="fa-solid fa-play"></i> WATCH Charlotte mayor emotional
+              as three officers killed
+            </h3>
+            <p class="leftsidetypelast">12 hrs ago | <span>NEWS</span> India</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="section5">
+        <div class="seperater4"></div>
+        <h3 class="section5Head">Must Watch</h3>
+
+        <div class="section5Elements">
+          <div class="section5Image">
+            <img src="../images/Sec5/1.webp" alt="sec5image" />
+          </div>
+          <div class="section5Detail">
+            <h1>Why is only 10 percent of the population left-handed?</h1>
+            <p>
+              A new study reveals the role of rare gene variants and randomness
+              in determining left-handedness.
+            </p>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4">
+        <div class="section4Elements">
+          <a href="#">
+            <h3>UK investigates OnlyFans over children accessing porn</h3>
+            <p class="leftsidetypelast">15 hrs ago | <span>NEWS</span> World</p>
+          </a>
+
+          <a href="#">
+            <h3>Beijing tightens grip on China social media giants</h3>
+            <p class="leftsidetypelast">8 hrs ago | <span>NEWS</span> Asia</p>
+          </a>
+
+          <a href="#">
+            <h3>Chinese women are teaming up with strangers to save money</h3>
+            <p class="leftsidetypelast">
+              1 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>Qantas blunder lets customers view strangers' data</h3>
+            <p class="leftsidetypelast">5 hrs ago | <span>NEWS</span> Europe</p>
+          </a>
+
+          <a href="#">
+            <h3>Amazon Prime ads help tech giant drive profits</h3>
+            <p class="leftsidetypelast">
+              12 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>Charlotte mayor emotional as three officers killed</h3>
+            <p class="leftsidetypelast">
+              14 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="section5">
+        <div class="seperater4"></div>
+        <h3 class="section5Head">Culture</h3>
+
+        <div class="section5Elements forSec6">
+          <div class="section5Image forSec6img">
+            <img src="../images/Sec5/2.webp" alt="sec5image" />
+          </div>
+          <div class="section5Detail forSec6detail">
+            <h1>Why is only 10 percent of the population left-handed?</h1>
+            <p>
+              A new study reveals the role of rare gene variants and randomness
+              in determining left-handedness.
+            </p>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4">
+        <div class="section4Elements">
+          <a href="#">
+            <h3>US author Paul Auster dies aged 77</h3>
+            <p class="leftsidetypelast">15 hrs ago | <span>NEWS</span> World</p>
+          </a>
+
+          <a href="#">
+            <h3>
+              Gosling and Blunt on sarcasm, stunts and singing at the Oscars
+            </h3>
+            <p class="leftsidetypelast">18 hrs ago | <span>NEWS</span> Asia</p>
+          </a>
+
+          <a href="#">
+            <h3>FKA Twigs uses AI to create deepfake of herself</h3>
+            <p class="leftsidetypelast">
+              12 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>Harry Potter fan named Britain's biggest collector</h3>
+            <p class="leftsidetypelast">
+              5 hrs ago | <span>NEWS</span> Culture
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>Line of Duty actor Brian McCardie dies at 59</h3>
+            <p class="leftsidetypelast">11 hrs ago | <span>NEWS</span> Wales</p>
+          </a>
+
+          <a href="#">
+            <h3>Charlotte mayor emotional as three officers killed</h3>
+            <p class="leftsidetypelast">
+              14 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="seperater"></div>
+      <!-- section2 -->
+      <div class="section2">
+        <h3 class="section2Head">Editor's picks</h3>
+        <div class="section2Elements">
+          <a href="#">
+            <img src="../images/Sec2/4.webp" alt="image2" />
+            <div>
+              <h3>How the world's oldest travel story inspired my own</h3>
+              <p>
+                Travel writer Laura Coffey sets off on an epic adventure to
+                discover the modern destinations behind The Odyssey, the real
+                places where myths meet geography.
+              </p>
+              <p class="leftsidetypelast">
+                1 hrs ago | <span>NEWS</span> Canada
+              </p>
+            </div>
+          </a>
+
+          <a href="#">
+            <img src="../images/Sec2/2.webp" alt="image3" />
+            <div>
+              <h3 id="top">These tricks make wind farms more bird-friendly</h3>
+
+              <p>
+                Wind turbines can pose a deadly risk to migrating birds, but
+                there are ways to dramatically reduce crashes.
+              </p>
+              <p class="leftsidetypelast">12 hrs ago | <span>NEWS</span> US</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <img src="../images/Sec2/5.webp" alt="image3" />
+            <div>
+              <h3 id="top">These tricks make wind farms more bird-friendly</h3>
+
+              <p>
+                Wind turbines can pose a deadly risk to migrating birds, but
+                there are ways to dramatically reduce crashes.
+              </p>
+              <p class="leftsidetypelast">
+                14 hrs ago | <span>NEWS</span> Germany
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="section5">
+        <div class="seperater4"></div>
+        <h3 class="section5Head">Earth</h3>
+
+        <div class="section5Elements">
+          <div class="section5Image">
+            <img src="../images/Sec5/3.webp" alt="sec5image" />
+          </div>
+          <div class="section5Detail">
+            <h1>The women saving crumbling Tibetan monasteries</h1>
+
+            <p>
+              Climate change was ravaging the stunning Tibetan heritage of the
+              Himalayas – now the 14th Century monasteries are being restored.
+            </p>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="section4Elements">
+          <a href="#">
+            <h3>Residents stranded on rooftops after deadly Brazil floods</h3>
+            <p class="leftsidetypelast">
+              Just in | <span>NEWS</span> Latin America
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>Floods maroon tourists in Kenya's Maasai Mara</h3>
+            <p class="leftsidetypelast">Just in | <span>NEWS</span> Africa</p>
+          </a>
+
+          <a href="#">
+            <h3>Plastic-eating bacteria can help waste self-destruct</h3>
+            <p class="leftsidetypelast">
+              1 day ago | <span>NEWS</span> Science
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>These tricks make wind farms more bird-friendly</h3>
+            <p class="leftsidetypelast">7 hrs ago | <span>NEWS</span> Future</p>
+          </a>
+
+          <a href="#">
+            <h3>Tensions grow as China ramps up mining for green tech</h3>
+            <p class="leftsidetypelast">2 days ago | <span>NEWS</span> World</p>
+          </a>
+        </div>
+      </div>
+      <div class="section5">
+        <div class="seperater4"></div>
+        <h3 class="section5Head">Innovation</h3>
+
+        <div class="section5Elements forSec6">
+          <div class="section5Image forSec6img">
+            <img src="../images/Sec5/4.webp" alt="sec5image" />
+          </div>
+          <div class="section5Detail forSec6detail">
+            <h1>Apple working to fix alarming iPhone issue</h1>
+            <p>
+              Users have been reporting unexpected lie-ins after the alarms on
+              their phones failed to go off.
+            </p>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4">
+        <div class="section4Elements">
+          <a href="#">
+            <h3>How AI is testing the boundaries of the human mind</h3>
+            <p class="leftsidetypelast">4 hrs ago | <span>NEWS</span> Future</p>
+          </a>
+
+          <a href="#">
+            <h3>WATCH AI v The Mind: Who has the edge?</h3>
+            <p class="leftsidetypelast">7 hrs ago | <span>NEWS</span> AI</p>
+          </a>
+
+          <a href="#">
+            <h3>Tens of millions secretly use WhatsApp despite bans</h3>
+            <p class="leftsidetypelast">
+              19 hrs ago | <span>NEWS</span> Technology
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>Binance crypto boss sentenced to 4 months in prison</h3>
+            <p class="leftsidetypelast">
+              23 hrs ago | <span>NEWS</span> Technology
+            </p>
+          </a>
+
+          <a href="#">
+            <h3>Erling Haaland becomes character in Clash of Clans</h3>
+            <p class="leftsidetypelast">1 day ago | <span>NEWS</span> Arts</p>
+          </a>
+        </div>
+      </div>
+      <div class="seperater"></div>
+      <!-- section2 -->
+      <div class="section2">
+        <h3 class="section2Head">Science and health</h3>
+        <div class="section2Elements">
+          <a href="#">
+            <img src="../images/Sec2/6.webp" alt="image2" />
+            <div>
+              <h3>Scientists work to make healthier white bread</h3>
+              <p>
+                The research aimed at lovers of white bread has been funded by
+                the government to improve the health benefits of UK food.
+              </p>
+              <p class="leftsidetypelast">
+                1 day ago | <span>NEWS</span> Health
+              </p>
+            </div>
+          </a>
+
+          <a href="#">
+            <img src="../images/Sec2/7.webp" alt="image3" />
+            <div>
+              <h3 id="top">Doctor assumed disabled woman did not have sex</h3>
+
+              <p>
+                Adults with disabilities describe traumatic experiences trying
+                to access healthcare.
+              </p>
+              <p class="leftsidetypelast">
+                2 day ago | <span>NEWS</span> Wales
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section3">
+      <div class="section3allelements">
+        <div class="seperater2" id="section2space"></div>
+
+        <div class="section2">
+          <div class="section2Elements">
+            <a href="#">
+              <img src="../images/Sec2/4.webp" alt="image2" />
+              <div class="section2ElementsBlack">
+                <h3>How the world's oldest travel story inspired my own</h3>
+                <p>
+                  Travel writer Laura Coffey sets off on an epic adventure to
+                  discover the modern destinations behind The Odyssey, the real
+                  places where myths meet geography.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">1 hrs ago | Canada</p>
+            </a>
+
+            <a href="#">
+              <img src="../images/Sec2/2.webp" alt="image3" />
+              <div class="section2ElementsBlack">
+                <h3 id="top">
+                  These tricks make wind farms more bird-friendly
+                </h3>
+
+                <p>
+                  Wind turbines can pose a deadly risk to migrating birds, but
+                  there are ways to dramatically reduce crashes.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">12 hrs ago | US</p>
+            </a>
+
+            <a href="#">
+              <img src="../images/Sec2/1.webp" alt="image3" />
+              <div class="section2ElementsBlack">
+                <h3 id="top">
+                  How the world's oldest travel story inspired my own
+                </h3>
+
+                <p>
+                  Travel writer Laura Coffey sets off on an epic adventure to
+                  discover the modern destinations behind The Odyssey, the real
+                  places where myths meet geography.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">12 hrs ago | US</p>
+            </a>
+
+            <a href="#">
+              <img src="../images/Sec2/5.webp" alt="image3" />
+              <div class="section2ElementsBlack">
+                <h3 id="top">
+                  These tricks make wind farms more bird-friendly
+                </h3>
+
+                <p>
+                  Wind turbines can pose a deadly risk to migrating birds, but
+                  there are ways to dramatically reduce crashes.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">14 hrs ago | Germany</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="seperater2"></div>
+      </div>
+    </div>
+    <div class="doc">
+      <div class="section5">
+        <div class="seperater4"></div>
+        <h3 class="section5Head">Sport</h3>
+
+        <div class="section5Elements forSec6">
+          <div class="section5Image forSec6img">
+            <img src="../images/Sec5/5.webp" alt="sec5image" />
+          </div>
+          <div class="section5Detail forSec6detail">
+            <h1>Red Bull confirm exit of design chief Newey</h1>
+            <p>
+              Red Bull confirm their design chief Adrian Newey will leave the
+              team in 2025.
+            </p>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4">
+        <div class="section4Elements">
+          <a href="#">
+            <h3>How AI is testing the boundaries of the human mind</h3>
+            <p class="leftsidetypelast">4 hrs ago | Future</p>
+          </a>
+
+          <a href="#">
+            <h3>WATCH AI v The Mind: Who has the edge?</h3>
+            <p class="leftsidetypelast">7 hrs ago | AI</p>
+          </a>
+
+          <a href="#">
+            <h3>Tens of millions secretly use WhatsApp despite bans</h3>
+            <p class="leftsidetypelast">19 hrs ago | Technology</p>
+          </a>
+
+          <a href="#">
+            <h3>Binance crypto boss sentenced to 4 months in prison</h3>
+            <p class="leftsidetypelast">23 hrs ago | Technology</p>
+          </a>
+
+          <a href="#">
+            <h3>Erling Haaland becomes character in Clash of Clans</h3>
+            <p class="leftsidetypelast">1 day ago | Arts</p>
+          </a>
+        </div>
+      </div>
+      <div class="section5">
+        <div class="seperater4"></div>
+        <h3 class="section5Head">Travel</h3>
+
+        <div class="section5Elements">
+          <div class="section5Image">
+            <img src="../images/Sec5/6.webp" alt="sec5image" />
+          </div>
+          <div class="section5Detail">
+            <h1>How the world's oldest travel story inspired my own</h1>
+
+            <p>
+              Travel writer Laura Coffey sets off on an epic adventure to
+              discover the modern destinations behind The Odyssey, the real
+              places where myths meet geography.
+            </p>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section3">
+      <div class="section3allelements">
+        <div class="seperater2" id="section2space"></div>
+
+        <div class="section2">
+          <div class="section2Elements">
+            <a href="#">
+              <img src="../images/Sec2/4.webp" alt="image2" />
+              <div class="section2ElementsBlack">
+                <h3>How the world's oldest travel story inspired my own</h3>
+                <p>
+                  Travel writer Laura Coffey sets off on an epic adventure to
+                  discover the modern destinations behind The Odyssey, the real
+                  places where myths meet geography.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">1 hrs ago | Canada</p>
+            </a>
+
+            <a href="#">
+              <img src="../images/Sec2/2.webp" alt="image3" />
+              <div class="section2ElementsBlack">
+                <h3 id="top">
+                  These tricks make wind farms more bird-friendly
+                </h3>
+
+                <p>
+                  Wind turbines can pose a deadly risk to migrating birds, but
+                  there are ways to dramatically reduce crashes.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">12 hrs ago | US</p>
+            </a>
+
+            <a href="#">
+              <img src="../images/Sec2/1.webp" alt="image3" />
+              <div class="section2ElementsBlack">
+                <h3 id="top">
+                  How the world's oldest travel story inspired my own
+                </h3>
+
+                <p>
+                  Travel writer Laura Coffey sets off on an epic adventure to
+                  discover the modern destinations behind The Odyssey, the real
+                  places where myths meet geography.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">12 hrs ago | US</p>
+            </a>
+
+            <a href="#">
+              <img src="../images/Sec2/5.webp" alt="image3" />
+              <div class="section2ElementsBlack">
+                <h3 id="top">
+                  These tricks make wind farms more bird-friendly
+                </h3>
+
+                <p>
+                  Wind turbines can pose a deadly risk to migrating birds, but
+                  there are ways to dramatically reduce crashes.
+                </p>
+              </div>
+              <p class="leftsidetypelast2">14 hrs ago | Germany</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="seperater2"></div>
+      </div>
+    </div>
+
+    <div class="doc">
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">World news</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>Ghana celebrates as looted artefacts put on display</h3>
+            <p class="leftsidetypelast">3 hrs ago | <span>NEWS</span> Africa</p>
+          </a>
+          <a href="#">
+            <h3>Georgia rocked by clashes over 'Russian-inspired' bill</h3>
+            <p class="leftsidetypelast">4 hrs ago | <span>NEWS</span> Europe</p>
+          </a>
+          <a href="#">
+            <h3>
+              Ukrainian, 98, tells BBC of six-mile walk to escape Russians
+            </h3>
+            <p class="leftsidetypelast">4 hrs ago | <span>NEWS</span> Europe</p>
+          </a>
+          <a href="#">
+            <h3>Key mining town seized - DR Congo rebels</h3>
+            <p class="leftsidetypelast">4 hrs ago | <span>NEWS</span> Africa</p>
+          </a>
+          <a href="#">
+            <h3>'I watch my back': Spike in BBC journalists living in exile</h3>
+            <p class="leftsidetypelast">4 hrs ago | <span>NEWS</span> World</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">US and Canada news</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>What do student protesters at US universities want?</h3>
+            <p class="leftsidetypelast">
+              4 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+          <a href="#">
+            <h3>Weinstein to appear in court after conviction quashed</h3>
+            <p class="leftsidetypelast">
+              10 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+          <a href="#">
+            <h3>WATCH How Gaza campus protests spread across the US</h3>
+            <p class="leftsidetypelast">
+              18 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+          <a href="#">
+            <h3>Crackdown or compromise? A tale of two US campus protests</h3>
+            <p class="leftsidetypelast">
+              18 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+          <a href="#">
+            <h3>US moves to reclassify marijuana as less dangerous</h3>
+            <p class="leftsidetypelast">
+              20 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">UK news</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>Sunak rules out asylum seeker returns from Ireland</h3>
+            <p class="leftsidetypelast">
+              3 hrs ago | <span>NEWS</span> UK Politics
+            </p>
+          </a>
+          <a href="#">
+            <h3>Civil servants sue government over Rwanda law</h3>
+            <p class="leftsidetypelast">
+              3 hrs ago | <span>NEWS</span> UK Politics
+            </p>
+          </a>
+          <a href="#">
+            <h3>Students occupy UK campuses in protest over Gaza</h3>
+            <p class="leftsidetypelast">4 hrs ago | <span>NEWS</span> UK</p>
+          </a>
+          <a href="#">
+            <h3>'Truly horrific': How the Hainault attack unfolded</h3>
+            <p class="leftsidetypelast">4 hrs ago | <span>NEWS</span> UK</p>
+          </a>
+          <a href="#">
+            <h3>DFDS to prioritise reliability in contract bid</h3>
+            <p class="leftsidetypelast">5 hrs ago | <span>NEWS</span> UK</p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">Business</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>Boris Becker no longer bankrupt, court says</h3>
+            <p class="leftsidetypelast">
+              4 hrs ago | <span>NEWS</span> Business
+            </p>
+          </a>
+          <a href="#">
+            <h3>Ex-Camelot boss named as new Post Office chairman</h3>
+            <p class="leftsidetypelast">
+              8 hrs ago | <span>NEWS</span> Business
+            </p>
+          </a>
+          <a href="#">
+            <h3>House prices fall as lenders raise mortgage rates</h3>
+            <p class="leftsidetypelast">
+              12 hrs ago | <span>NEWS</span> Business
+            </p>
+          </a>
+          <a href="#">
+            <h3>Beijing tightens grip on China social media giants</h3>
+            <p class="leftsidetypelast">
+              13 hrs ago | <span>NEWS</span> Business
+            </p>
+          </a>
+          <a href="#">
+            <h3>
+              WATCH Tatti Lashes: The school friends who built a beauty empire
+            </h3>
+            <p class="leftsidetypelast">
+              21 hrs ago | <span>NEWS</span> Business
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">Culture</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>WATCH Paul Auster: Americans are divided like never before</h3>
+            <p class="leftsidetypelast">
+              5 hrs ago | <span>NEWS</span> Culture
+            </p>
+          </a>
+          <a href="#">
+            <h3>Four presenters begin legal action against BBC</h3>
+            <p class="leftsidetypelast">
+              7 hrs ago | <span>NEWS</span> Entertainment & Arts
+            </p>
+          </a>
+          <a href="#">
+            <h3>Where and when is Eurovision 2024 taking place?</h3>
+            <p class="leftsidetypelast">
+              8 hrs ago | <span>NEWS</span> Entertainment & Arts
+            </p>
+          </a>
+          <a href="#">
+            <h3>The Russian hit film that dodged the censors</h3>
+            <p class="leftsidetypelast">
+              10 hrs ago | <span>NEWS</span> Entertainment & Arts
+            </p>
+          </a>
+          <a href="#">
+            <h3>Sangita Myska leaves LBC in schedule shake-up</h3>
+            <p class="leftsidetypelast">
+              11 hrs ago | <span>NEWS</span> Culture
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">Sport</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>Old pals McInnes & Docherty on PFA nominations</h3>
+            <p class="leftsidetypelast">
+              3 hrs ago | <span>NEWS</span> Scottish Prem
+            </p>
+          </a>
+          <a href="#">
+            <h3>'No fear' Quins in 'biggest week' in club history</h3>
+            <p class="leftsidetypelast">
+              3 hrs ago | <span>NEWS</span> Harlequins
+            </p>
+          </a>
+          <a href="#">
+            <h3>Fastorslow repeats Punchestown Gold Cup success</h3>
+            <p class="leftsidetypelast">3 hrs ago | <span>NEWS</span> Sport</p>
+          </a>
+          <a href="#">
+            <h3>Alcaraz's Madrid Open title defence ended by Rublev</h3>
+            <p class="leftsidetypelast">3 hrs ago | <span>NEWS</span> Tennis</p>
+          </a>
+          <a href="#">
+            <h3>Trump suffers shock quarter-final loss to Jones</h3>
+            <p class="leftsidetypelast">
+              3 hrs ago | <span>NEWS</span> Snooker
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">Climate solutions</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>These tricks make wind farms more bird-friendly</h3>
+            <p class="leftsidetypelast">9 hrs ago | <span>NEWS</span> Future</p>
+          </a>
+          <a href="#">
+            <h3>The women saving crumbling Tibetan monasteries</h3>
+            <p class="leftsidetypelast">
+              11 hrs ago | <span>NEWS</span> Future
+            </p>
+          </a>
+          <a href="#">
+            <h3>How I tempted a frog to live in our garden</h3>
+            <p class="leftsidetypelast">
+              5 days ago | <span>NEWS</span> Future
+            </p>
+          </a>
+          <a href="#">
+            <h3>Can bird flu be stopped?</h3>
+            <p class="leftsidetypelast">
+              5 days ago | <span>NEWS</span> Future
+            </p>
+          </a>
+          <a href="#">
+            <h3>The scavengers stalking the world's cities</h3>
+            <p class="leftsidetypelast">
+              7 days ago | <span>NEWS</span> Future
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">Technology</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>Apple working to fix alarming iPhone issue</h3>
+            <p class="leftsidetypelast">
+              4 hrs ago | <span>NEWS</span> Technology
+            </p>
+          </a>
+          <a href="#">
+            <h3>How AI is testing the boundaries of the human mind</h3>
+            <p class="leftsidetypelast">
+              7 hrs ago | <span>NEWS</span> Technology
+            </p>
+          </a>
+          <a href="#">
+            <h3>Future: Tesla staff say entire Supercharger team fired</h3>
+            <p class="leftsidetypelast">7 hrs ago | <span>NEWS</span> Future</p>
+          </a>
+          <a href="#">
+            <h3>WATCH AI v The Mind: Who has the edge?</h3>
+            <p class="leftsidetypelast">
+              10 hrs ago | <span>NEWS</span> Technology
+            </p>
+          </a>
+          <a href="#">
+            <h3>Welsh zombie game a hit in international charts</h3>
+            <p class="leftsidetypelast">10 hrs ago | <span>NEWS</span> Wales</p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">Science and health</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>
+              WATCH Abortion clinic in Florida braces for new restrictions
+            </h3>
+            <p class="leftsidetypelast">
+              21 hrs ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+          <a href="#">
+            <h3>Patch to protect against measles shows promise</h3>
+            <p class="leftsidetypelast">
+              2 days ago | <span>NEWS</span> Health
+            </p>
+          </a>
+          <a href="#">
+            <h3>Why living with strangers can make us happier</h3>
+            <p class="leftsidetypelast">
+              1 day ago | <span>NEWS</span> Culture
+            </p>
+          </a>
+          <a href="#">
+            <h3>How 'vampire facials' infected three women with HIV</h3>
+            <p class="leftsidetypelast">
+              2 days ago | <span>NEWS</span> US & Canada
+            </p>
+          </a>
+          <a href="#">
+            <h3>Scientists invent new way to detect skin cancer</h3>
+            <p class="leftsidetypelast">
+              1 day ago | <span>NEWS</span> Coventry
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">World's Table</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>How brewers are reviving ancient beers</h3>
+            <p class="leftsidetypelast">
+              5 days ago | <span>NEWS</span> World's Table
+            </p>
+          </a>
+          <a href="#">
+            <h3>A new take on matzah ball soup</h3>
+            <p class="leftsidetypelast">21 Apr 2024 | <span>Travel</span></p>
+          </a>
+          <a href="#">
+            <h3>The wines birthed from black volcanic craters</h3>
+            <p class="leftsidetypelast">18 Apr 2024 | <span>Travel</span></p>
+          </a>
+          <a href="#">
+            <h3>
+              WATCH Sweden's Icehotel: The menu inspired by eight Sami seasons
+            </h3>
+            <p class="leftsidetypelast">14 Apr 2024 | <span>Travel</span></p>
+          </a>
+          <a href="#">
+            <h3>Thailand's cooling rice dish to beat the heat</h3>
+            <p class="leftsidetypelast">
+              13 Apr 2024 | <span>NEWS</span> World's Table
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="seperater3"></div>
+        <h3 class="section4Head">Travel</h3>
+        <div class="section4Elements">
+          <a href="#">
+            <h3>An insider's guide to the best sushi in Tokyo</h3>
+            <p class="leftsidetypelast">
+              3 days ago | <span>NEWS</span> Travel
+            </p>
+          </a>
+          <a href="#">
+            <h3>Paris's most authentic and delicious bistros</h3>
+            <p class="leftsidetypelast">
+              7 days ago | <span>NEWS</span> Travel
+            </p>
+          </a>
+          <a href="#">
+            <h3>Where to find the best cheesesteaks in Philly</h3>
+            <p class="leftsidetypelast">
+              20 Apr 2024 | <span>NEWS</span> Travel
+            </p>
+          </a>
+          <a href="#">
+            <h3>Where to find the best banh mi in Ho Chi Minh City</h3>
+            <p class="leftsidetypelast">
+              17 Apr 2024 | <span>NEWS</span> Travel
+            </p>
+          </a>
+          <a href="#">
+            <h3>Eight of the best bagels in New York City</h3>
+            <p class="leftsidetypelast">
+              14 Apr 2024 | <span>NEWS</span> Travel
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="doc">
+        <img src="../images/logo.png" alt="" />
+        <div class="footerCatogeries">
+          <a href="#">Home</a>
+          <a href="#">News</a>
+          <a href="#">Sport</a>
+          <a href="#">Business</a>
+          <a href="#">Innovation</a>
+          <a href="#">Culture</a>
+          <a href="#">Travel</a>
+          <a href="#">Earth</a>
+          <a href="#">Video</a>
+          <a href="#">Live</a>
+          <a href="#">Audio</a>
+          <a href="#">Weather</a>
+          <a href="#">BBC Shop</a>
+        </div>
+        <div class="Languages">
+          <button onclick="Language()">
+            <h3>BBC in other languages</h3>
+            
+            <i class="fa-solid fa-chevron-down" id="chevronDown"></i>
+            <i class="fa-solid fa-chevron-up" id="chevronUp"></i>
+          </button>
+        </div>
+
+        <div class="LanguagesBox">
+          <div class="LanguagesBoxTop">
+            <h1>The BBC is in multiple languages</h1>
+            <p>Read the BBC In your own language</p>
+          </div>
+
+          <div class="LanguagesBoxMainFull">
+
+          <div class="LanguagesBoxMain">
+            <div id="part1">
+              <a>Oduu Afaan Oromootiin</a>
+              <a>Amharic ዜና በአማርኛ</a>
+              <a>Arabic عربي</a>
+              <a>Azeri AZƏRBAYCAN</a>
+              <a>Bangla বাংলা</a>
+              <a>Burmese မြန်မာ</a>
+              <a>Chinese 中文网</a>
+              <a>French AFRIQUE</a>
+              <a>Hausa HAUSA</a>
+              <a>Hindi हिन्दी</a>
+              <a>Gaelic NAIDHEACHDAN</a>
+            </div>
+            <div id="part2">
+              <a>Gujarati ગુજરાતીમાં સમાચાર</a>
+              <a>Igbo AKỤKỌ N’IGBO</a>
+              <a>Indonesian INDONESIA</a>
+              <a>Japanese 日本語</a>
+              <a>Kinyarwanda GAHUZA</a>
+              <a>Kirundi KIRUNDI</a>
+              <a>Korean 한국어</a>
+              <a>Kyrgyz Кыргыз</a>
+              <a>Marathi मराठी</a>
+              <a>Nepali नेपाली</a>
+              <a>Noticias para hispanoparlantes</a>
+            </div>
+            <div id="part3">
+              <a>Pashto پښتو</a>
+              <a>Persian فارسی</a>
+              <a>Pigdin</a>
+              <a>Portuguese BRASIL</a>
+              <a>Punjabi ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ</a>
+              <a>Russian НА РУССКОМ</a>
+              <a>Serbian NA SRPSKOM</a>
+              <a>Sinhala සිංහල</a>
+              <a>Somali SOMALI</a>
+              <a>Swahili HABARI KWA KISWAHILI</a>
+              <a>Tamil தமிழில் செய்திகள்</a>
+            </div>
+            <div id="part4">
+              <a>Telugu తెలుగు వార్తలు</a>
+              <a>Thai ข่าวภาษาไทย</a>
+              <a>Tigrinya ዜና ብትግርኛ</a>
+              <a>Turkish TÜRKÇE</a>
+              <a>Ukrainian УКРАЇНСЬКA</a>
+              <a>Urdu اردو</a>
+              <a>Uzbek O'ZBEK</a>
+              <a>Vietnamese TIẾNG VIỆT</a>
+              <a>Welsh NEWYIDDION</a>
+              <a>Yoruba ÌRÒYÌN NÍ YORÙBÁ</a>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div class="footerSeperator"></div>
+        <div class="footerCondition">
+          <a href="#">Terms of Use</a>
+          <a href="#">About the BBC</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
+          <a href="#">Accessibility Help</a>
+          <a href="#">Contact the BBC</a>
+          <a href="#">Advertise with us</a>
+          <a href="#">Do not share or sell my info</a>
+          <a href="#">Contact technical support</a>
+          </div>
+
+        <p class="footerCopyright">
+          Copyright 2024 BBC. All rights reserved. The BBC is not responsible
+          for the content of external sites.
+          <strong>Read about our approach to external linking.</strong>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="../scripts/script.js"></script>
