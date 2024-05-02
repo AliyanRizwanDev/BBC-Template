@@ -27,11 +27,12 @@ const Language = () => {
 
     if (LanguagesBox.style.display === "none" || LanguagesBox.style.display === "") {
         LanguagesBox.style.display = "block";
-        chervonUp.style.display = "none"; 
-        chevronDown.style.display = "inline"; 
-    } else {
-        LanguagesBox.style.display = "none";
         chervonUp.style.display = "inline";
         chevronDown.style.display = "none"; 
+
+    } else {
+        LanguagesBox.style.display = "none";
+        chervonUp.style.display = "none"; 
+        chevronDown.style.display = "inline"; 
     }
 }
