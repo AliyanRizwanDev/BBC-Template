@@ -417,6 +417,7 @@
   .leftSide a img {
     width: 50px;
     height: 100%;
+    min-width: 155px;
   }
   .section1 .MiddleSide {
     flex-basis: 100%;
