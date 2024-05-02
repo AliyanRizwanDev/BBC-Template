@@ -897,11 +897,15 @@
     display: block !important;
   }
 
+  .LanguagesBoxTop p{
+    margin-bottom: 50px;
+  }
   .LanguagesBoxMain div{
     margin-left: 15px !important;
     margin-bottom: 0px !important;
     margin-top: 0px !important;
   }
+
   
 }
 
@@ -1049,6 +1053,7 @@
   cursor: pointer;
   
 }
+
 .LanguagesBoxMain div a:hover{
 
   text-decoration: underline;
@@ -1061,6 +1066,8 @@
   font-size: 24px;
   margin-bottom: 20px;
 }
+
+
 
 .LanguagesBoxTop{
   text-align: center;
