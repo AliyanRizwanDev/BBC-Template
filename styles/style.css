@@ -84,8 +84,25 @@
   .navBtn button {
     display: none;
   }
+  .drawer .navBtn button {
+    display: flex !important;
+    
+  }
+  .drawer .navBtn {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 75px;
+    justify-content: center;
+
+    
+  }
 }
 
+
+.drawer .navBtn button {
+  display: none;
+}
 .categories {
   display: flex;
   justify-content: center;
@@ -97,6 +114,7 @@
   background-color: white;
   z-index: 1;
 }
+
 
 .categories a {
   padding: 25px 8px 10px 8px;
@@ -437,8 +455,6 @@
   margin-top: 50px;
 }
 
-
-
 .section2 {
   width: 100%;
   margin: auto;
@@ -462,7 +478,6 @@
 .section2 img {
   width: 100%;
   height: auto;
-  
 }
 
 .section2 h3 {
@@ -486,33 +501,32 @@
 @media screen and (max-width: 1126px) {
   .section2Elements {
     flex-direction: column;
-    
   }
-  
+
   .section2Elements a {
-    margin: 0px !important;}
+    margin: 0px !important;
+  }
 
   .imageContainer {
     position: relative;
     overflow: hidden;
   }
-  
+
   .imageContainer img {
     width: 100%;
     height: auto;
   }
-  
+
   .imageContainer h3 {
     position: absolute;
     bottom: 0%;
     width: 100%;
     text-align: center;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0.8);
     padding-top: 20px;
     padding-bottom: 20px;
-    }
-  
+  }
 }
 
 .section3 {
@@ -898,20 +912,18 @@
   .footerCatogeries a {
     display: block;
   }
-  .LanguagesBoxMain{
+  .LanguagesBoxMain {
     display: block !important;
   }
 
-  .LanguagesBoxTop p{
+  .LanguagesBoxTop p {
     margin-bottom: 50px;
   }
-  .LanguagesBoxMain div{
+  .LanguagesBoxMain div {
     margin-left: 15px !important;
     margin-bottom: 0px !important;
     margin-top: 0px !important;
   }
-
-  
 }
 
 .drawer {
@@ -922,6 +934,7 @@
   transform: translate(-100%);
   z-index: 5;
   transition: 0.2s;
+  overflow: scroll;
 }
 
 .search {
@@ -1026,8 +1039,6 @@
   height: fit-content;
   padding-top: 4px;
   padding-left: 5px;
-
-
 }
 .LanguagesBox {
   background-color: #eceef1;
@@ -1035,49 +1046,38 @@
 
   padding-top: 50px;
   display: none;
-
 }
-.LanguagesBoxMain{
+.LanguagesBoxMain {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   font-size: 12px;
   flex-wrap: wrap;
 }
-.LanguagesBoxMain div{
+.LanguagesBoxMain div {
   display: flex;
   flex-direction: column;
   margin: 50px;
 
   flex-wrap: wrap;
-  
 }
-.LanguagesBoxMain div a{
-
+.LanguagesBoxMain div a {
   margin-bottom: 20px;
   cursor: pointer;
-  
 }
 
-.LanguagesBoxMain div a:hover{
-
+.LanguagesBoxMain div a:hover {
   text-decoration: underline;
-  
-
-  
 }
 
-.LanguagesBoxTop h1{
+.LanguagesBoxTop h1 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-
-
-.LanguagesBoxTop{
+.LanguagesBoxTop {
   text-align: center;
-  
 }
 
-#chevronUp{
+#chevronUp {
   display: none;
 }
